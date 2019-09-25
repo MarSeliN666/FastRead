@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FastRead</string>
+
+    <string name="title_history">History</string>
+    <string name="title_read">Read</string>
+    <string name="title_write">Write</string>
+
+    <string name="line">|</string>
+
+    <string name="load">LOAD_SCREEN</string>
+    <string name="read">READ_SCREEN</string>
+
+    <string name="users_text">InputText</string>
+
+
+</resources>

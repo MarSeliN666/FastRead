@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_load"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="@string/title_history" />
+
+    <item
+        android:id="@+id/navigation_read"
+        android:icon="@drawable/ic_read_white_24dp"
+        android:title="@string/title_read" />
+
+    <item
+        android:id="@+id/navigation_write"
+        android:icon="@drawable/ic_write_white_24dp"
+        android:title="@string/title_write" />
+
+</menu>

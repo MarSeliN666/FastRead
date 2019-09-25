@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkGray"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/usersText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:cursorVisible="true"
+            android:hint="@string/users_text"
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorWhite"
+            android:textColorHighlight="#00FFFFFF"
+            android:textColorHint="@color/colorWhite"
+            android:textColorLink="#00FFFFFF" tools:targetApi="o"/>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
